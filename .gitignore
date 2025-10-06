@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes virtuais Python
+.venv/
+venv/
+ENV/
+env/
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+edu.db
+
+# Logs
+*.log
+logs/
+Backend/logs/
+Frontend/logs/
+
+# Arquivos sensíveis
+.env
+.env.local
+.env.*.local
+Backend/.env
+Frontend/.env.local
+
+# ChromaDB
+Backend/chroma_db/
+chroma_db/
+
+# Uploads e arquivos temporários
+Backend/uploads/
+Backend/static/logos/
+uploads/
+static/logos/
+
+# Node.js e Frontend
+node_modules/
+.next/
+out/
+build/
+dist/
+.cache/
+*.tsbuildinfo
+next-env.d.ts
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+
+# Testes e cobertura
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+coverage/
+*.cover
+
+# Backups
+*.backup
+*.bak
+web.config.backup
+
+# Arquivos temporários do Windows
+*.tmp
+*.temp
